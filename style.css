@@ -1,0 +1,105 @@
+body
+{
+background-color: chocolate;
+}
+.emoji-face
+{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position: relative;
+
+
+}
+.eye1
+{
+    position: absolute;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    top:30px;
+    left:25px;
+}
+.eye2
+{
+    position: absolute;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    top:30px;
+    left:60px;
+}
+.mouth
+{
+    position: absolute;
+    height: 25px;
+    width:50px;
+    background-color: black;
+    top:55px;
+    left: 25px;
+    border-radius: 0 0 70px 70px;
+    z-index:1;
+    overflow: hidden;
+}
+.toungue
+{
+    position: absolute;
+    background-color: red;
+    height:45px;
+    width: 35px;
+    border-radius: 50px  50px  70px 70px;
+    top:15px;
+    left:10px;
+}
+.rap
+{
+    position: absolute;
+    height:5px;
+    width: 60px;
+    background-color: black;
+    top:64px;
+    left:20px;
+}
+.ovall
+{
+    position: absolute;
+    height:40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    left:29px;
+    top:50px;
+    z-index:1;
+    overflow: hidden;
+}
+.mouths
+{
+    position: absolute;
+    height: 25px;
+    width:50px;
+    background-color: black;
+    top:55px;
+    left: 25px;
+    border-radius: 70px 70px 0 0;
+    z-index:1;
+    overflow: hidden;
+}
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 300px;
+}
+h1
+{
+ padding: 50px;
+ color: crimson;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+ font-size: 200px;
+}
